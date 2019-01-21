@@ -117,7 +117,7 @@ class enemy(object):
        self.right = True
        self.ended = False
        self.walkCount = 0
-       self.vel = 5
+       self.vel = 15
        self.hitbox = (self.x + 17, self.y + 2, 31, 57)
        self.desig = False
 
